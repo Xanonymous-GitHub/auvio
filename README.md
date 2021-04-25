@@ -11,6 +11,10 @@ Let your zuvio roll the call automatically, don’t get up for roll call anymore
 
 ![](https://img.shields.io/pypi/v/auvio.svg)
 
+### Contributors
+[entroy](https://github.com/entroy0421)
+[Xanonymous](https://github.com/Xanonymous-GitHub)
+
 ### install
 `pip3 install auvio`
 
