@@ -87,3 +87,4 @@ def auvio(email: str, password: str, class_number: str, lat: float, lng: float):
         print('email or password is wrong')
     else:
         auto_roll_call(class_number, lat, lng)
+
