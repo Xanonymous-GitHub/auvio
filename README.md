@@ -1,10 +1,10 @@
+<h1 align="center">Auvio</h1>
+
 <p align="center">
   <a href="https://pypi.org/project/auvio/" target="_blank">
     <img alt="Auvio Logo" width="400" src="https://i.imgur.com/r2x6z2f.webp">
   </a>
 </p>
-
-<h1 align="center">Auvio</h1>
 
 Let your zuvio roll the call automatically, don’t get up for roll call anymore, give yourself a good morning.
 
