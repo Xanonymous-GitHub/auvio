@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="auvio",
-    version="1.0.1",
+    version="1.0.2",
     author="NPC OwO",
     author_email="support@ntut.club",
     description="Let your zuvio roll the call automatically, "
