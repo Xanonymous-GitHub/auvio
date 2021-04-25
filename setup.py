@@ -12,7 +12,7 @@ setup(
                 "don’t get up for roll call anymore, give yourself a good morning!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/Xanonymous-GitHub/auvio",
     packages=['auvio'],
     platforms=["all"],
     classifiers=[
