@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="auvio",
-    version="1.0.3",
+    version="1.0.4",
     author="NPC OwO",
     author_email="support@ntut.club",
     description="Let your zuvio roll the call automatically, "
@@ -20,6 +20,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8',
+    python_requires='>=3.3',
     install_requires=['requests', 'bs4', 'beautifulsoup4'],
 )
