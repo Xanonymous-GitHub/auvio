@@ -5,7 +5,8 @@ import re
 import sys
 
 s = requests.Session()
-
+Email = ''
+Password = ''
 
 def logout():
     url = 'https://irs.zuvio.com.tw/student5/logout/index'
@@ -65,6 +66,8 @@ def auto_roll_call(class_number: str, lat: float, lng: float):
                 break
             except SystemExit:
                 sys.exit(0)
+        except:
+            login
 
 
 def login(email: str, password: str) -> bool:
@@ -83,8 +86,12 @@ def auvio(email: str, password: str, class_number: str, lat: float, lng: float):
     if not all((email, password, class_number, lat, lng)):
         raise Exception
 
+    global Email
+    Email = email
+    global Password
+    Password = password
+
     if not login(email, password):
         print('email or password is wrong')
     else:
         auto_roll_call(class_number, lat, lng)
-
